@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- Using Google Fonts for better experience -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <title>Solve Quiz</title>
+</head>
+<body>
+    
+
+    <h1>Quiz Game</h1>
+    <hr>
+    <div id="rulesDiv">
+    <h2 id="rules">Rules :</h2>
+
+    <ol id="guidline">
+        <li>This quiz is consist of 5 questions.</li>
+        <li>Each correct answere will give you +1 points but wrong answere will be deducted -0.25 score from your score.</li>
+        <li>To pass this quiz you have to come up with minimun 3 points in your score.</li>
+        <li>To play this quiz you must have to sit in a silent ambience and a good internet speed is mandatory.</li>
+        <li>click on the start quiz button when you're ready.</li>
+    </ol>
+    <hr>
+    <div id="start-btn">
+       <a href="#"> <button id="start-quiz"> START QUIZ</button></a>
+    </div>
+    
+
+    </div>
+    <div id="refreshDiv"><button id="refresh">Play&nbsp;Again?</button></div>
+    <div id="question"></div>
+    <div id="optionDiv"></div>
+    <div id="result">
+        <table id="table">
+            <caption id="caption">This is your summerised result.</caption>                
+        </table>
+    </div>
+    
+    <div id="menu-div">
+        <button id="next-btn">Next&nbsp;&gt;&gt;</button>        
+    </div>
+    <div id="score">
+        
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
