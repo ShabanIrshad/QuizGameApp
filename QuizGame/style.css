@@ -1,0 +1,168 @@
+
+/* GLOBAL CSS STARTS hERE  */
+:root{
+    --questionColor:rgb(248, 114, 37);
+    --optionColor:rgb(172, 161, 161);
+    --buttonColor:rgb(88, 88, 243);
+    --backgroundColor:rgb(195, 190, 190);
+}
+body{
+    background-color: var(--backgroundColor);
+    font-family: 'Poppins', sans-serif;    
+    
+}
+h1{
+    text-align: center;
+}
+hr{
+    margin: 30px;
+}
+
+/* GLOBAL CSS ENDS hERE  */
+
+/* QUESTION DIV DESIGNS STARTS HERE */
+#question{
+    /* border: 1px solid red; */
+    height: auto;
+    width: 80%;
+    margin: auto;
+    background-color: var(--questionColor);
+    border-radius: 15px;
+    text-align: center;
+    padding:20px 5px 10px 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: 5px 5px green;
+
+}
+/* QUESTION DIV DESIGNS ENDS HERE */
+
+/* OPTIONS DIV DESIGNS STARTS HERE */
+.option{
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    width:50%;
+    height: 40%;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 700;
+    
+}
+.option:hover{
+    background-color: bisque;
+}
+#optionDiv{
+    justify-items: center;
+    border-left: 1px solid rgb(141, 145, 141);
+    border-right: 1px solid rgb(141, 145, 141);
+    width: 80%;    
+    margin: auto;
+}
+/* OPTIONS DIV DESIGNS ENDS HERE */
+/* SCORE DIV DESIGNS STARTS HERE */
+#score{
+    margin: auto;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+    width:80%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+/* SCORE DIV DESIGNS ENDS HERE */
+
+/* //BUTTON  DESIGNS */
+#menu-div{
+    /* border:1px solid red; */
+    width:80%;
+    margin:auto;
+}
+#next-btn{
+    display: flex;
+    float:right;
+    font-weight: 700;
+   background-color: rgb(9, 165, 43); 
+   padding: 10px;
+     
+}
+
+#next-btn:hover{
+    background-color: rgb(233, 230, 230);
+}
+
+
+/* TABLE CONTENTS DESIGN */
+#result{
+    display: flex;
+    
+    margin: auto;
+    width:80%;
+    /* border:1px solid red; */
+    justify-items: center;
+    padding: 10px 0px 10px 0px;
+}
+table,td,tr,th{
+    /* padding: 2px; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    border:3px solid green;
+    padding:0px;
+    margin: auto;
+   
+    text-align: center;
+}
+table{
+    width: 80%;
+    margin: auto;
+    /* display: flex; */
+    background-color: rgb(11, 11, 11);
+    /* flex-wrap: wrap; */
+    border: 1px solid black;
+}
+caption{
+    font-weight: 800;
+    background-color: greenyellow;
+    border-radius:20px;
+    padding: 5px;
+}
+/* RULES AND GUIDLINE STYLES */
+#rules{
+    font-size: 1.2rem;
+    
+}
+#guidline{
+    font-size: 0.9rem;
+}
+#start-btn{
+    /* background-color: aliceblue; */
+    display: flex;
+    padding: 10px;
+    justify-items: center;
+}
+#start-btn button{
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px rgb(50, 41, 7);
+    height: 50px;
+    width: 150px;
+    background-color: rgb(226, 133, 10);
+}
+/* REFRESH BUTTON DESIGN HERE */
+#refreshDiv{
+    display: grid;
+    /* border: 1px solid red; */
+    justify-items: center;
+    padding: 10px;
+}
+#refresh{
+    font-weight: 600;
+    height: 110%;
+    width: 20%;
+    background-color: rgb(119, 119, 233);
+    padding: 5px;
+    font-size: 0.9rem;
+}
