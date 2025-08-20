@@ -8,4 +8,5 @@
 
 - Designed modular game flow (Rules → Play → Results → Restart) simulating a real test environment.
 
-  
+  ![projectImage](https://github.com/ShabanIrshad/QuizGameApp/blob/main/QuizGame/gamePlay.png)
+  ![projectImage](https://github.com/ShabanIrshad/QuizGameApp/blob/main/QuizGame/result.png)
